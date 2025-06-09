@@ -49,6 +49,8 @@ fun DashboardScreen(viewModel: TransactionViewModel) {
                 .padding(padding)
         ) {
 
+            Text("Главная", style = MaterialTheme.typography.headlineSmall)
+
             Card(
                 modifier = Modifier
                     .fillMaxWidth()

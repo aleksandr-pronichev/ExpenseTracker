@@ -72,7 +72,7 @@ fun rememberDatabase(context: Context): AppDatabase {
             AppDatabase::class.java,
             "expenses-db"
         )
-            .fallbackToDestructiveMigration()
+            .fallbackToDestructiveMigration(false)
             .build()
     }
 }
